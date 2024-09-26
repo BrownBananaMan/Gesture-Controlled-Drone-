@@ -6,7 +6,6 @@ from sklearn.neighbors import KNeighborsClassifier
 # Initialize Mediapipe hands and drawing modules
 mp_hands = mp.solutions.hands
 mp_drawing = mp.solutions.drawing_utils
-
 # Initialize K-Nearest Neighbors classifier
 gesture_classifier = KNeighborsClassifier(n_neighbors=5)
 
